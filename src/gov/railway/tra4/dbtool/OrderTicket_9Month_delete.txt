@@ -1,0 +1,7 @@
+delete from tms_op_seat_od where trn_op_date >= to_date('20180901','yyyyMMdd') and trn_op_date < to_date('20180906','yyyyMMdd')
+delete from tms_op_seat_od where trn_op_date >= to_date('20180906','yyyyMMdd') and trn_op_date < to_date('20180911','yyyyMMdd')
+delete from tms_op_seat_od where trn_op_date >= to_date('20180911','yyyyMMdd') and trn_op_date < to_date('20180916','yyyyMMdd')
+delete from tms_op_seat_od where trn_op_date >= to_date('20180916','yyyyMMdd') and trn_op_date < to_date('20180921','yyyyMMdd')
+delete from tms_op_seat_od where trn_op_date >= to_date('20180921','yyyyMMdd') and trn_op_date < to_date('20180926','yyyyMMdd')
+delete from tms_op_seat_od where trn_op_date >= to_date('20180926','yyyyMMdd') and trn_op_date < to_date('20180930','yyyyMMdd')
+delete from tms_op_seat_od where trn_op_date = to_date('20181031','yyyyMMdd')

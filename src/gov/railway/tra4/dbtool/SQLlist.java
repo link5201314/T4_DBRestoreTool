@@ -31,17 +31,29 @@ public interface SQLlist {
 
 
     //PT_03 (Reverse about 4 Mins)
-    String [] SQLList = {
-                         "CII_POS_1_SQL.txt",
-                         "CII_POS_2_SQL.txt",
-                         "CII_SMT_1_SQL.txt",
-                         "CII_SMT_2_SQL.txt",
-                         "CII_SMT_3_SQL.txt",
-                         "VTS_001_SQL.txt",
-                         "AFR_003_001_SQL.txt"
+	
+    String [] OrderTicket = {
+    		"OrderTicket_9Month_delete",
+    		"OrderTicket_9Month_insert"
+            };
+	
+    String [] PTP_PT_01 = {
+
                          };
 
+    String [] PTP_PT_02 = {
 
+            };
+
+    String [] PTP_PT_03 = {
+            "CII_POS_1_SQL.txt",
+            "CII_POS_2_SQL.txt",
+            "CII_SMT_1_SQL.txt",
+            "CII_SMT_2_SQL.txt",
+            "CII_SMT_3_SQL.txt",
+            "VTS_001_SQL.txt",
+            "AFR_003_001_SQL.txt"
+            };
   
 
 }

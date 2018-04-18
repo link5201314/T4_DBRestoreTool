@@ -52,12 +52,17 @@ public class ExecSqlFromFile implements SQLlist{
     public static void main(String[] args) throws Exception {
   		connInfo = new ConnInfoFactory(DBInfoType.Prod);
   		
-  		for(int i=0;i<SQLlist.SQLList.length;i++) {
-        ExSQLFileProp btProp = new ExSQLFileProp("test", "/gov/railway/tra4/dbtool/"+ SQLlist.SQLList[i], 5000);
-        execSQLFile(btProp);
-        System.out.println( SQLlist.SQLList[i] + ": Program Finished !!");
-  		}
-
+  		for(int i=0;i<SQLlist.OrderTicket.length;i++) {
+	        ExSQLFileProp btProp = new ExSQLFileProp("test", "/gov/railway/tra4/dbtool/"+ SQLlist.OrderTicket[i], 5000);
+	        execSQLFile(btProp);
+	        System.out.println( SQLlist.OrderTicket[i] + ": Program Finished !!");
+	  	}
+  		
+  		for(int i=0;i<SQLlist.PTP_PT_03.length;i++) {
+	        ExSQLFileProp btProp = new ExSQLFileProp("test", "/gov/railway/tra4/dbtool/"+ SQLlist.PTP_PT_03[i], 5000);
+	        execSQLFile(btProp);
+	        System.out.println( SQLlist.PTP_PT_03[i] + ": Program Finished !!");
+	  	}
     }      
     
     static void execSQLFile(ExSQLFileProp exProp) throws Exception {

@@ -1,0 +1,7 @@
+insert into tms_op_seat_od select * from tms_op_seat_od_bak where trn_op_date >= to_date('20180901','yyyyMMdd') and trn_op_date < to_date('20180906','yyyyMMdd')
+insert into tms_op_seat_od select * from tms_op_seat_od_bak where trn_op_date >= to_date('20180906','yyyyMMdd') and trn_op_date < to_date('20180911','yyyyMMdd')
+insert into tms_op_seat_od select * from tms_op_seat_od_bak where trn_op_date >= to_date('20180911','yyyyMMdd') and trn_op_date < to_date('20180916','yyyyMMdd')
+insert into tms_op_seat_od select * from tms_op_seat_od_bak where trn_op_date >= to_date('20180916','yyyyMMdd') and trn_op_date < to_date('20180921','yyyyMMdd')
+insert into tms_op_seat_od select * from tms_op_seat_od_bak where trn_op_date >= to_date('20180921','yyyyMMdd') and trn_op_date < to_date('20180926','yyyyMMdd')
+insert into tms_op_seat_od select * from tms_op_seat_od_bak where trn_op_date >= to_date('20180926','yyyyMMdd') and trn_op_date < to_date('20180930','yyyyMMdd')
+insert into tms_op_seat_od select * from tms_op_seat_od_bak where trn_op_date = to_date('20181031','yyyyMMdd')
