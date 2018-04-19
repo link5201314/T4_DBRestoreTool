@@ -1,0 +1,1 @@
+update tms_op_trn set grp_presale_bgn_date = sysdate-3, grp_presale_end_date = sysdate -2, FIT_PRESALE_BGN_DATE = sysdate - 1 where trn_op_date >= to_date('20180901','yyyyMMdd')

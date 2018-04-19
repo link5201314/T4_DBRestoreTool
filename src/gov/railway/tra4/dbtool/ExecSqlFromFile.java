@@ -40,7 +40,7 @@ import java.util.Properties;
  */
 public class ExecSqlFromFile implements SQLlist{
 	//private static int cores = Runtime.getRuntime().availableProcessors();
-	private static int cores = 4;
+	private static int cores = 8;
 	private static int taskTimeOut_Mintues = 10;
     private static ConnInfoFactory connInfo;
     //private static FileWriter fw_query;
@@ -53,16 +53,16 @@ public class ExecSqlFromFile implements SQLlist{
   		connInfo = new ConnInfoFactory(DBInfoType.Prod);
   		
   		for(int i=0;i<SQLlist.OrderTicket.length;i++) {
-	        ExSQLFileProp btProp = new ExSQLFileProp("test", "/gov/railway/tra4/dbtool/"+ SQLlist.OrderTicket[i], 5000);
+	        ExSQLFileProp btProp = new ExSQLFileProp("test", "/gov/railway/tra4/dbtool/"+ SQLlist.OrderTicket[i], 1);
 	        execSQLFile(btProp);
 	        System.out.println( SQLlist.OrderTicket[i] + ": Program Finished !!");
 	  	}
   		
-  		for(int i=0;i<SQLlist.PTP_PT_03.length;i++) {
-	        ExSQLFileProp btProp = new ExSQLFileProp("test", "/gov/railway/tra4/dbtool/"+ SQLlist.PTP_PT_03[i], 5000);
-	        execSQLFile(btProp);
-	        System.out.println( SQLlist.PTP_PT_03[i] + ": Program Finished !!");
-	  	}
+//  		for(int i=0;i<SQLlist.PTP_PT_03.length;i++) {
+//	        ExSQLFileProp btProp = new ExSQLFileProp("test", "/gov/railway/tra4/dbtool/"+ SQLlist.PTP_PT_03[i], 500);
+//	        execSQLFile(btProp);
+//	        System.out.println( SQLlist.PTP_PT_03[i] + ": Program Finished !!");
+//	  	}
     }      
     
     static void execSQLFile(ExSQLFileProp exProp) throws Exception {
