@@ -31,7 +31,8 @@ public interface SQLlist {
                          };
 
     String [] PTP_PT_02 = {
-    		"TWS_100_103_002_SQL.txt"
+    		"TWS_100_103_002_SQL.txt",
+    		"SMS_100_208"
             };
 
     String [] PTP_PT_03 = {

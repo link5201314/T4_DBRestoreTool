@@ -58,7 +58,13 @@ public class ExecSqlFromFile implements SQLlist{
 	        System.out.println( SQLlist.OrderTicket[i] + ": Program Finished !!");
 	  	}
   		
-//  		for(int i=0;i<SQLlist.PTP_PT_03.length;i++) {
+//		for(int i=0;i<SQLlist.PTP_PT_02.length;i++) {
+//	        ExSQLFileProp btProp = new ExSQLFileProp("test", "/gov/railway/tra4/dbtool/"+ SQLlist.PTP_PT_02[i], 500);
+//	        execSQLFile(btProp);
+//	        System.out.println( SQLlist.PTP_PT_02[i] + ": Program Finished !!");
+//		}
+  		
+//  	for(int i=0;i<SQLlist.PTP_PT_03.length;i++) {
 //	        ExSQLFileProp btProp = new ExSQLFileProp("test", "/gov/railway/tra4/dbtool/"+ SQLlist.PTP_PT_03[i], 500);
 //	        execSQLFile(btProp);
 //	        System.out.println( SQLlist.PTP_PT_03[i] + ": Program Finished !!");
