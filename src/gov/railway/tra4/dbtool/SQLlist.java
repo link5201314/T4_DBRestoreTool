@@ -17,7 +17,7 @@ public interface SQLlist {
     		"OrderTicket_9Month_delete.txt",
     		"OrderTicket_9Month_delete2.txt",
     		"OrderTicket_9Month_insert.txt",
-    		//"OrderTicket_9Month_update"
+    		"OrderTicket_9Month_update"
             };
 	
     String [] PTP_PT_01 = {
