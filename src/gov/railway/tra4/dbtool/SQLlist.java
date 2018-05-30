@@ -25,26 +25,31 @@ public interface SQLlist {
 //            "TIP_001_002_002_SQL.txt",
 //            "TIP_001_002_003_1_SQL.txt",
 //            "TIP_001_002_003_2_SQL.txt",
+            "OrderTicket_9Month_delete.txt",
+            "OrderTicket_9Month_delete2.txt",
+            "OrderTicket_9Month_insert.txt",
+            "OrderTicket_9Month_update",
             "TIP_001_001_005_2_restore.sql",
             "TIP_001_001_005_4_restore.sql",
             "TIP_001_001_005_3_restore.sql"
                          };
 
     String [] PTP_PT_02 = {
-//    		"TWS_100_103_002_SQL.txt",
-//    		"PDI_TVM_2_restore.sql",
-//    		"SMS_100_208",
-    		"PDI_TVM_3_restore.sql"
+    		"TWS_100_103_002_SQL.txt",
+    		"PTS_002_006_003.txt",
+        "PDI_TVM_1_restore.sql",
+        "PDI_TVM_2_restore.sql",
+        "PDI_TVM_3_restore.sql"
             };
 
     String [] PTP_PT_03 = {
-            "CII_POS_1_SQL.txt",
+            "CII_POS_1_restore.sql",
             "CII_POS_2_SQL.txt",
-            "CII_SMT_1_SQL.txt",
-            "CII_SMT_2_SQL.txt",
+            "CII_SMT_1_restore.sql",
+            "CII_SMT_2_restore.sql",
             "CII_SMT_3_SQL.txt",
-            "VTS_001_SQL.txt",
-            "AFR_003_001_SQL.txt"
+            "VTS_001_restore.sql",
+            "AFR_003_001_SQL.txt"   
             };
   
 
