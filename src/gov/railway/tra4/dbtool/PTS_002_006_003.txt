@@ -1,0 +1,1 @@
+delete  from SSP_RE_TKT_ORDER where FARE_TKT_NO = 'N70000033674997' and LAST_MODIFY_IP like  '10.100.78.%'
