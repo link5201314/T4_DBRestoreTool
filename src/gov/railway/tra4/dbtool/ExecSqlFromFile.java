@@ -46,7 +46,7 @@ public class ExecSqlFromFile implements SQLlist{
     //private static FileWriter fw_query;
     private static String resFolderPath = "C:\\";
     private static Boolean blnFastMode = true;
-    private static Boolean blnAutoCommit = false;
+    private static Boolean blnAutoCommit = true;
     private static Boolean blnMultiThread = true;
 
     public static void main(String[] args) throws Exception {

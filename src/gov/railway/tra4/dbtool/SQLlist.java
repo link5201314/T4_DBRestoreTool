@@ -21,19 +21,20 @@ public interface SQLlist {
             };
 	
     String [] PTP_PT_01 = {
-            "TIP_001_002_001_SQL.txt",
-            "TIP_001_002_002_SQL.txt",
-            "TIP_001_002_003_1_SQL.txt",
-            "TIP_001_002_003_2_SQL.txt",
+//            "TIP_001_002_001_SQL.txt",
+//            "TIP_001_002_002_SQL.txt",
+//            "TIP_001_002_003_1_SQL.txt",
+//            "TIP_001_002_003_2_SQL.txt",
             "TIP_001_001_005_2_restore.sql",
             "TIP_001_001_005_4_restore.sql",
             "TIP_001_001_005_3_restore.sql"
                          };
 
     String [] PTP_PT_02 = {
-    		"TWS_100_103_002_SQL.txt",
-    		"PDI_TVM_2_restore.sql",
-    		"SMS_100_208"
+//    		"TWS_100_103_002_SQL.txt",
+//    		"PDI_TVM_2_restore.sql",
+//    		"SMS_100_208",
+    		"PDI_TVM_3_restore.sql"
             };
 
     String [] PTP_PT_03 = {
