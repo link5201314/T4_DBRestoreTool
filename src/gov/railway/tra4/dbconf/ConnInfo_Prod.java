@@ -26,8 +26,8 @@ public class ConnInfo_Prod extends ConnInfo {
 	    //jdbc:oracle:thin:@//oracle.hostserver2.mydomain.ca:1522/ABCD
 		jdbcUrl = "jdbc:oracle:thin:@//10.100.75.101:1521/trwp";
 		//jdbcUrl = "jdbc:oracle:thin:@10.100.75.108:1521:trwp ";
-		userName = "apadmin";
-		userPwd = "Cht#1234";
+		userName = "isaac";
+		userPwd = "Admin#0815";
     }
 
     /**
